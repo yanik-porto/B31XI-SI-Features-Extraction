@@ -3,7 +3,7 @@
 **Table-of-contents**
 
 * [Dependencies](#dependencies)
-* [Features normalization](#features-normalization)
+* [Features extraction](#features-extraction)
 * [To perform the practise](#to-perform-the-practise)
 
 More description is given in the subsections.
@@ -16,15 +16,26 @@ In order to use the Ipython Notebook, the following dependencies are needed:
 
 * IPython - `sudo apt-get install ipython`
 * IPython notebook - `sudo apt-get install ipython-notebook`
-* Numpy - `sudo apt-get install numpy`
+* Numpy - `sudo apt-get install python-numpy`
+* Scipy - `sudo apt-get install python-scipy`
 * Matplotlib - `sudo apt-get install python-matplotlib`
+* Mpld3 - `sudo pip install mpld3`
+* Plotly - `sudo pip install plotly`
 * Scikit-learn - `sudo apt-get install python-sklearn`
 
 We strongly recommend to use a Linux environment to perform this practise.
 
-## Features normalization
+## Features extraction
 
-Synthetic data will be generated. Simple classification using Leave-One-Patient-Out cross-validation will be performed in order to show the importance of features normalization previous to classification.
+Synthetic data will be generated. An implementation of Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) will be implemented. A comparison with the scikit-learn implementation can be performed.
+
+### Principal components analysis (PCA)
+
+Insights about PCA can be found in this nice article [here](https://hal-univ-bourgogne.archives-ouvertes.fr/hal-00903901/document) by D. Sidibe.
+
+### Linear discriminant analysis (LDA)
+
+Insights about LDA can be found in this article [here](http://faculty.ist.psu.edu/jessieli/Publications/ecmlpkdd11_qgu.pdf).
 
 ## To perform the practise
 
@@ -45,7 +56,7 @@ Enter the following command in a terminal `ipython notebook`.
 
 This command should run the server locally via your default web browser and you will be able to play with the notebook.
 
-If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Features-Normalisation/blob/master/features-normalisation.ipynb).
+If you are just curious to see what the ipython notebook look like, you can view it [there](http://nbviewer.ipython.org/github/ViBOT-Erasmus/B31XI-SI-Features-Extraction/blob/master/02-features-extraction.ipynb).
 
 Enjoy!!!
 
