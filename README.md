@@ -27,6 +27,9 @@ We strongly recommend to use a Linux environment to perform this practise.
 
 ## Features extraction
 
+The following module of the framework will be studied:
+![Alt text](./readme-images/pr-framework-fe.png)
+
 Synthetic data will be generated. An implementation of Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) will be implemented. A comparison with the scikit-learn implementation can be performed.
 
 ### Principal components analysis (PCA)
